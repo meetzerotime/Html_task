@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        #submitted-values {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML & CSS</h1>
+    <p class='first'>
+        test web page
+        <a href="https://www.youtube.com/watch?v=a_gwOwkbhZ0" target="_blank">on youtube</a>
+    </p>
+
+
+    <form id="your-name" onsubmit="submitForm(event)">
+        <h2>Your name here</h2>
+        <p>fill this form</p>
+
+        <input type="text" id="cityName" placeholder="your city name" required />
+        <input type="text" id="yourName" placeholder="your name" required />
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="submitted-values"></div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
